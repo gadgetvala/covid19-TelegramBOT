@@ -149,7 +149,6 @@ bot.command('otherCountry', async (ctx) => {
 		let countryName = countryNameInput.join('').toLowerCase();
 
 		const country = global.data.areas.filter((curr, index) => {
-			countryList.push(curr.displayName);
 			if (curr.id == countryName) {
 				return index;
 			}
