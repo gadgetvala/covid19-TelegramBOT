@@ -1,0 +1,28 @@
+{
+  "name": "covid19-telegrambot",
+  "version": "1.0.0",
+  "description": "Simple telegram bot which show current data",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gadgetvala/covid19-TelegramBOT.git"
+  },
+  "keywords": [
+    "covid19",
+    "telegrambot"
+  ],
+  "author": "Suraj Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gadgetvala/covid19-TelegramBOT/issues"
+  },
+  "homepage": "https://github.com/gadgetvala/covid19-TelegramBOT#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.37.0"
+  }
+}
